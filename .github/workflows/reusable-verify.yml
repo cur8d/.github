@@ -1,0 +1,19 @@
+name: Reusable Mise Verification
+
+on:
+  workflow_call:
+    inputs:
+      mise-task:
+        description: "The mise task to execute"
+        required: false
+        default: "verify"
+        type: string
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v5
+      - name: Run verification task
+        run: mise run ${{ inputs.mise-task }}
