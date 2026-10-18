@@ -37,12 +37,12 @@ npx create-cur8d --template lambda my-service
 
 ## Curated Templates
 
-| Template | Stack | Repository | Docs |
-| :--- | :--- | :--- | :--- |
-| **`typescript`** | Next.js 16, React 19, HeroUI, Tailwind CSS, AI Assistant | [`cur8d/typescript`](https://github.com/cur8d/typescript) | [Docs](https://cur8d.dev/typescript) |
-| **`python`** | Python 3.14, uv, Mise, Ruff, Pytest, Click | [`cur8d/python`](https://github.com/cur8d/python) | [Docs](https://cur8d.dev/python) |
-| **`lambda`** | AWS Lambda, AWS CDK, Powertools, Python 3.14 | [`cur8d/lambda`](https://github.com/cur8d/lambda) | [Docs](https://cur8d.dev/lambda) |
-| **`cur8d.dev`** | Landing & documentation portal powered by Next.js | [`cur8d/cur8d.github.io`](https://github.com/cur8d/cur8d.github.io) | [cur8d.dev](https://cur8d.dev) |
+| Template         | Stack                                                    | Repository                                                          | Docs                                 |
+| :--------------- | :------------------------------------------------------- | :------------------------------------------------------------------ | :----------------------------------- |
+| **`typescript`** | Next.js 16, React 19, HeroUI, Tailwind CSS, AI Assistant | [`cur8d/typescript`](https://github.com/cur8d/typescript)           | [Docs](https://cur8d.dev/typescript) |
+| **`python`**     | Python 3.14, uv, Mise, Ruff, Pytest, Click               | [`cur8d/python`](https://github.com/cur8d/python)                   | [Docs](https://cur8d.dev/python)     |
+| **`lambda`**     | AWS Lambda, AWS CDK, Powertools, Python 3.14             | [`cur8d/lambda`](https://github.com/cur8d/lambda)                   | [Docs](https://cur8d.dev/lambda)     |
+| **`cur8d.dev`**  | Landing & documentation portal powered by Next.js        | [`cur8d/cur8d.github.io`](https://github.com/cur8d/cur8d.github.io) | [cur8d.dev](https://cur8d.dev)       |
 
 ---
 
