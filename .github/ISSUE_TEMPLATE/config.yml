@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: cur8d Documentation & Portal
+    url: https://cur8d.dev
+    about: Explore documentation, guides, and curated template architectures.
+  - name: Community Discussions
+    url: https://github.com/orgs/cur8d/discussions
+    about: Ask questions, share ideas, and connect with other developers.
+  - name: Security Vulnerabilities
+    url: https://github.com/cur8d/.github/security/advisories/new
+    about: Privately report security vulnerabilities.
