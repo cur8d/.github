@@ -1,0 +1,27 @@
+[tools]
+node = "24"
+
+[tasks.lint]
+description = "Check code formatting and linting"
+run = "npx prettier --check '**/*.{md,yml,yaml}'"
+alias = "l"
+
+[tasks.format]
+description = "Format all files with prettier"
+run = "npx prettier --write '**/*.{md,yml,yaml}'"
+alias = "f"
+
+[tasks.verify]
+description = "Run all verification checks"
+depends = ["lint"]
+alias = "v"
+
+[shell_alias]
+l = "mise run lint"
+f = "mise run format"
+v = "mise run verify"
+g = "git"
+gs = "git status"
+gb = "git branch"
+gc = "git commit"
+gp = "git push"
